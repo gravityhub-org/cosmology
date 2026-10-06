@@ -2,6 +2,11 @@
 
 from cosmology.distances import (
     angular_diameter_distance,
+    angular_diameter_distance_z1z2,
+    comoving_distance,
+    comoving_transverse_distance,
+    comoving_volume,
+    differential_comoving_volume,
     dyer_roeder_angular_diameter_distance,
     dyer_roeder_luminosity_distance,
     hubble_parameter,
@@ -11,6 +16,11 @@ from cosmology.distances import (
 
 __all__ = [
     "angular_diameter_distance",
+    "angular_diameter_distance_z1z2",
+    "comoving_distance",
+    "comoving_transverse_distance",
+    "comoving_volume",
+    "differential_comoving_volume",
     "dyer_roeder_angular_diameter_distance",
     "dyer_roeder_luminosity_distance",
     "hubble_parameter",

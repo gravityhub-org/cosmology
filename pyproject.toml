@@ -1,7 +1,7 @@
 [project]
 name = "cosmology"
 version = "0.1.0"
-description = "JAX cosmological distances (Adachi & Kasai 2012, arXiv:1111.6396) for flat ΛCDM"
+description = "JAX cosmological distances (Adachi & Kasai 2012, arXiv:1111.6396) for flat LCDM"
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
@@ -24,7 +24,7 @@ Repository = "https://github.com/gravityhub-org/cosmology"
 "Bug Tracker" = "https://github.com/gravityhub-org/cosmology/issues"
 
 [project.optional-dependencies]
-dev = ["pytest>=7", "numpy>=1.24", "scipy>=1.10"]
+dev = ["pytest>=7", "numpy>=1.24", "astropy>=6"]
 
 [build-system]
 requires = ["uv_build>=0.12.10,<0.13.0"]
